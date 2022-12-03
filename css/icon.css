@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'wecandoit';
+    src: url('../fonts/wecandoit.eot');
+    src: url('../fonts/wecandoit.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/wecandoit.woff') format('woff'),
+         url('../fonts/wecandoit.ttf') format('truetype'),
+         url('../fonts/wecandoit.svg#wecandoit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='wc-']:before{
+	display: inline-block;
+   font-family: 'wecandoit';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.wc-icon_1_roundcircle:before{content:'\0041';}
+.wc-icon_2_roundcircledot:before{content:'\0042';}
+.wc-icon_3_checkbox:before{content:'\0043';}
+.wc-icon_4_checkbox-tick:before{content:'\0044';}
+.wc-icon_5_edit:before{content:'\0045';}
+.wc-icon_6_info:before{content:'\0046';}
+.wc-icon_7_widgetcircle:before{content:'\0047';}
+.wc-icon_8_widgettick:before{content:'\0048';}

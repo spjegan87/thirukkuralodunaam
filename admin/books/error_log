@@ -1,0 +1,9 @@
+[19-Sep-2019 21:10:28 UTC] PHP Notice:  Undefined variable: PHP_SELF in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 12
+[19-Sep-2019 21:10:28 UTC] PHP Notice:  Undefined index: userfile in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 23
+[19-Sep-2019 21:10:37 UTC] PHP Notice:  Undefined variable: PHP_SELF in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 12
+[19-Sep-2019 21:10:51 UTC] PHP Notice:  Undefined variable: PHP_SELF in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 12
+[19-Sep-2019 21:10:51 UTC] PHP Notice:  Undefined index: userfile in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 23
+[19-Sep-2019 21:10:58 UTC] PHP Notice:  Undefined variable: PHP_SELF in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 12
+[19-Sep-2019 21:11:17 UTC] PHP Notice:  Undefined variable: PHP_SELF in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 12
+[19-Sep-2019 21:11:17 UTC] PHP Notice:  Undefined index: userfile in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 23
+[19-Sep-2019 21:11:24 UTC] PHP Notice:  Undefined variable: PHP_SELF in /home/ictsd57pqkkc/public_html/admin/books/done.PhP5 on line 12

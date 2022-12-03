@@ -1,0 +1,160 @@
+@media (max-width:320px)
+{
+	.panel-hdr-lft a { position:unset; border:none; background:none;}
+	.panel-hdr-lft { background:#f8f8f8; padding-top:10px;}
+	.dashboard-tpg { margin-bottom:20px;}
+	.mobile-logo img { width:110%;}
+	.menu-mobile-control { position: fixed; bottom: 0px; top:0px; left:-100%; display: block; width: 80%; z-index: 9999; animation:mobilemenuanimreverse 1s forwards;}
+	.menu-mobile-control.active { animation:mobilemenuanim 1s forwards;}
+	@keyframes mobilemenuanim 
+	{
+		from { left:-100%; }
+		to { left:0%; }
+	}
+	@keyframes mobilemenuanimreverse 
+	{
+		from { left:0%; }
+		to { left:-100%; }
+	}
+	.work-area { padding:20px 0px;}
+	.panel-type-bg { background:none; padding:0px; border:none; box-shadow:none;}
+	/* Table fonts styles */
+	.admin-table td, .admin-table th { font-size:12px;}
+	.table td { background:#fff; }
+	.table th { background:#000 !important; color:#fff; }
+	.admin-table td.tamil-let, .admin-table th.tamil-let { font-size:10px;}
+	/* Table fonts styles End */
+	.header-title { margin-bottom:50px;}
+	.header-title a { font-size: 14px; border: 1px solid #038e63; padding: 5px 10px; float: left !important; display: block; width: 100%; text-decoration: none; background: #0BD697; color: #080808; margin: 10px 0px 10px -20px; }
+	.contact-display p, textarea.form-control{ font-size:12px !important;}
+	.icons{ font-size:14px; margin:0px 10px;}
+	.admin-table td button { margin:20px 5px 0px 5px;}
+	.admin-table td button.show-bg { background:#0BD697; }
+	.inner-title { font-size:16px;}
+	.inner-title p{ margin-top:10px; float:left !important; width:100%;}
+	.mobile-logout { padding:10px 35px 15px 10px; line-height:30px; background:#0BD697; text-shadow:2px 2px 5px #000000; position:relative; color:#fff; font-size:1.4em;}
+	.mobile-logout a { position:absolute; top:30px; right:25px; font-size:25px; color:#fff;}
+	.social-links a { width:60px; height:60px;}
+	.social-links a i {font-size:32px; }
+	.social-links span { display:none; }
+	a.fb i, a.gp i, a.yt i { padding-top:15px;}
+	.cus-browse { width:65%;}
+	.browse { padding:9px 9px;}
+	.on { font-size:16px; margin-right:12px;}
+	#indexcontent { height:280px;}
+	#time { display:block;}
+	.user-name { font-weight:bold; }
+	.action-column { width:10%; }
+	.footer-bg { margin-top:65px !important;}
+	.admin-menu li.active a, .admin-menu li:focus a, .admin-menu li:visited a { background:#000; color:#fff; }
+	.logincontainer,.login-form { margin:0px; padding:0px;}
+	.login-page-panel { margin:50% 0px;}
+	.login-bg { background:url('../images/admin-bg.jpg') no-repeat 20% 30%; }
+	.login-page-panel h2, .forgot-page-panel h2 { font-size:30px; padding:0px;}
+
+}
+@media (min-width:321px) and (max-width:480px)
+{
+	.up-arrow { float:right; margin-bottom:10px;}
+	.panel-hdr-lft a { position:unset; border:none; background:none;}
+	.panel-hdr-lft { background:#f8f8f8; padding-top:10px;}
+	.dashboard-tpg { margin-bottom:20px;}
+	.mobile-logo img { width:110%;}
+	.menu-mobile-control { position: fixed; bottom: 0px; top:0px; left:-100%; display: block; width: 80%; z-index: 9999; animation:mobilemenuanimreverse 1s forwards;}
+	.menu-mobile-control.active { animation:mobilemenuanim 1s forwards;}
+	@keyframes mobilemenuanim 
+	{
+		from { left:-100%; }
+		to { left:0%; }
+	}
+	@keyframes mobilemenuanimreverse 
+	{
+		from { left:0%; }
+		to { left:-100%; }
+	}
+	.work-area { padding:20px 0px;}
+	.panel-type-bg { background:none; padding:0px; border:none; box-shadow:none;}
+	/* Table fonts styles */
+	.admin-table td, .admin-table th { font-size:12px;}
+	.table td { background:#fff; }
+	.table th { background:#000 !important; color:#fff; }
+	.admin-table td.tamil-let, .admin-table th.tamil-let { font-size:10px;}
+	/* Table fonts styles End */
+	.header-title { margin-bottom:50px;}
+	.header-title a { font-size: 14px; border: 1px solid #038e63; padding: 5px 10px; float: left !important; display: block; width: 100%; text-decoration: none; background: #0BD697; color: #080808; margin: 10px 0px 10px -20px; }
+	.contact-display p, textarea.form-control{ font-size:12px !important;}
+	.icons{ font-size:14px; margin:0px 10px;}
+	.admin-table td button { margin:20px 5px 0px 5px;}
+	.inner-title { font-size:16px;}
+	.inner-title p{ margin-top:10px; float:left !important; width:100%;}
+	.mobile-logout { padding:10px 35px 15px 10px; line-height:30px; background:#0BD697; text-shadow:2px 2px 5px #000000; position:relative; color:#fff; font-size:1.4em;}
+	.mobile-logout a { position:absolute; top:30px; right:25px; font-size:25px; color:#fff;}
+	.social-links a { width:60px; height:60px;}
+	.social-links a i {font-size:32px; }
+	.social-links span { display:none; }
+	a.fb i, a.gp i, a.yt i { padding-top:15px;}
+	.cus-browse { width:65%;}
+	.browse { padding:9px 9px;}
+	.on { font-size:16px; margin-right:12px;}
+	#indexcontent { height:280px;}
+	#time { display:block;}
+	.user-name { font-weight:bold; }
+	.action-column { width:10%; }
+	.footer-bg { margin-top:65px !important;}
+	.admin-menu li.active a, .admin-menu li:focus a, .admin-menu li:visited a { background:#000; color:#fff; }
+	.logincontainer, .login-form { margin:0px; padding:0px; }
+	.login-page-panel { margin:50% 0px;}
+	.login-bg { background:url('../images/admin-bg.jpg') no-repeat 20% 30%; }
+	.login-page-panel h2, .forgot-page-panel h2 { font-size:30px; padding:0px;}
+}
+@media (min-width:481px) and (max-width:768px)
+{
+	.panel-hdr-lft { background:#f8f8f8; padding-top:20px;}
+	.dashboard-tpg { margin-bottom:20px;}
+	.mobile-logo img { width:110%;}
+	.menu-mobile-control { position: fixed; bottom: 0px; top:0px; left:-100%; display: block; width: 80%; z-index: 9999; animation:mobilemenuanimreverse 1s forwards;}
+	.menu-mobile-control.active { animation:mobilemenuanim 1s forwards;}
+	@keyframes mobilemenuanim 
+	{
+		from { left:-100%; }
+		to { left:0%; }
+	}
+	@keyframes mobilemenuanimreverse 
+	{
+		from { left:0%; }
+		to { left:-100%; }
+	}
+	.work-area { padding:20px 0px;}
+	.panel-type-bg { background:none; padding:0px; border:none; box-shadow:none;}
+	/* Table fonts styles */
+	.admin-table td, .admin-table th { font-size:12px;}
+	.table td { background:#fff; }
+	.table th { background:#000 !important; color:#fff; }
+	.admin-table td.tamil-let, .admin-table th.tamil-let { font-size:10px;}
+	/* Table fonts styles End */
+	.header-title a { font-size: 14px; border: 1px solid #038e63; padding: 5px 10px; float: left !important; display: block; width: 100%; text-decoration: none; background: #0BD697; color: #080808; margin: 10px 0px 10px -20px; }
+	.contact-display p, textarea.form-control{ font-size:12px !important;}
+	.icons{ font-size:14px; margin:0px 10px;}
+	.admin-table td button {  margin:20px 5px 0px 5px;}
+	.inner-title { font-size:16px;}
+	.inner-title p{ margin-top:10px; float:left !important; width:100%;}
+	.mobile-logout { padding:10px 35px 15px 10px; line-height:30px; background:#0BD697; text-shadow:2px 2px 5px #000000; position:relative; color:#fff; font-size:1.4em;}
+	.mobile-logout a { position:absolute; top:30px; right:25px; font-size:25px; color:#fff;}
+	.social-links a { width:60px; height:60px;}
+	.social-links a i {font-size:32px; }
+	.social-links span { display:none; }
+	a.fb i, a.gp i, a.yt i { padding-top:15px;}
+	.cus-browse { width:65%;}
+	.browse { padding:9px 9px;}
+	.on { font-size:16px; margin-right:12px;}
+	#indexcontent { height:280px;}
+	#time { display:block;}
+	.user-name { font-weight:bold; }
+	.action-column { width:10%; }
+	.footer-bg { margin-top:65px !important;}
+	.admin-menu li.active a, .admin-menu li:focus a, .admin-menu li:visited a { background:#000; color:#fff; }
+	.login-page-panel { margin:15% 0px;}
+	.login-bg { background:url('../images/admin-bg.jpg') no-repeat 20% 30%; }
+	.login-page-panel h2, .forgot-page-panel h2 { font-size:30px; padding:0px;}
+
+}

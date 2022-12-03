@@ -1,0 +1,268 @@
+/* 
+	Website Name : Thirukkuralodu Namm
+	Designed By  : Jegan S.P
+	Developed By : Jegan 
+	Server Working : Marikkannan
+	Stylesheet Created Date : 12.11.2018
+*/
+/* Mobile Portrait view */
+@media (max-width:320px)
+{
+	.footer-empty { height:80px;}
+	.boxscroll1 { width:100% !important; overflow:auto !important;}
+	.kural-table tr td:first-child { display:none;}
+	.content-in { height:120px;}
+	.kuralvideo .player { width:100%; margin:20px 0px;}
+	.panel-hdr { background:#f8f8f8; }
+	.wecan-anim-page canvas, .anim-in, .search-panel, .theme-setting, .fa-database, .login-panel a span { display:none;}
+	.admin-menu li.active a, .admin-menu li:focus a, .admin-menu li:visited a { color:#000 !important; }
+	.custom-navbar .navbar-toggle, .custom-navbar .navbar-toggle .icon-bar { border:1px solid #000;}
+	.custom-navbar .navbar-toggle { margin:40px 10px 0px 0px; }
+	.banner-container { padding:15px 15px 20px 0px;}
+	.banner-container h1 { font-size: 30px; line-height: 40px; text-shadow: 1px 9px 8px #ccc; margin-bottom: 30px; text-align: center; }
+	.banner-container { background-size:60%; }
+	.banner-container p { text-align:center; font-size:14px;}
+	.about-valluvar p { margin:10px 5%;}
+	.about-container { background-position:-320px 0px;}
+	.homecocontent { border-bottom: 1px solid #fff; margin: 5% 10%; padding-bottom: 40px; font-size:22px;}
+	.homecocontent span { display:none;}
+	.custom-carousel, .about-page { width:100%; }
+	.gallery a { width:100px; margin:0px 0px 5px 3px;}
+	h2.header-text { line-height:50px;}
+	.footer h4 { margin-bottom:10px; line-height:30px;}
+	.about-page-content h1 { font-size:20px; line-height:28px; }
+	.about-page-content p {font-size:13px;}
+	.player { width:100%;}
+	.custom-navbar .navbar-collapse { margin-top: 0px; position: fixed; bottom:0px; top: 0px; right: -100%; background:#fff; width:95%; z-index:1; border:1px solid #316330; z-index:99;}
+	.custom-navbar .navbar-collapse.in { right:-20px; transition:1s; margin:0px; display:block; position:fixed; }
+	.custom-navbar .navbar-collapse.out { right:-101%; transition:1s; margin:0px; display:none; position:fixed;  }
+	.custom-navbar .navbar-nav li a{ padding:10px 0px 10px 0px;}
+	.custom-navbar .navbar-nav li:nth-child(2) { margin-top:20px;}
+	.custom-dropdown, .dropdown-menu li { margin-top:0px !important;}
+	.xs-menu-close { font-size:24px; color:#fff; position:absolute; top:20px; right:40px;}
+	.address{ padding-left:15px; }
+	.mobile-menu { background: #01865C; color: #fff; font-size: 18px; padding: 30px 20px !important; margin: -10px 0px; }
+	.custom-navbar .navbar-nav li a i.fa-cog { top:1px; text-align:center; }
+	.navbar-nav .open .dropdown-menu {margin-left:20px;}
+	.player video { height:210px;}
+	.inner-brdr { margin:10px 0px 20px 0px;}
+	.under-const, .un-text { width:100%;}
+	.un-text { bottom:-20%; left:0px;}
+	.circle-1 {left:6%;}
+	.notify-center { width:90%; border-radius:10px;}
+	.notify-center h1 { font-size:25px;}
+	.notify-center p span { display:inline-block; margin-top:20px;}
+	.clone-minus { margin-right:0px;}
+	.service-panel .service-panel-anim { bottom:80px;}
+	.footer-form, .copyright, .social-link { text-align:center;}
+	.social-link { margin-top:20px; }
+	.ship1 { width:100px;}
+	.boat-m1 { width:120px; bottom:-40px;}
+	.thirukkural-panel { padding:0px; border:0px; }
+	.video-container h3 { font-size:16px; line-height:30px;}
+	ol.thirukkural li { margin:0px 0px 20px 23px; padding-bottom:35px; border-bottom:1px solid #000; font-size:13px; }
+	ol.thirukkural li a { bottom:5px; top:auto;}
+	ol.thirukkural li:last-child { border-bottom:0px;}
+	.gallery-page .carousel-inner { height:400px;}
+	.gallery-page .carousel-caption h3{ font-size:1.3em; }
+	.gallery-page .item img { height:400px;}
+	.news-top img { width:100%; height:130px; border-radius:0px;}
+	.news-top p { width:100%; margin:0px;}
+	.news-container { height:480px;}
+	.ytvideo { width:100%; margin:0px; }
+	.ytvideo p button { right:-5px; font-size:20px; }
+	.ytvideo p a { right:25px;}
+	.v-container p { font-size:14px;}
+	.menu-contact { background:#000; }
+	.custom-navbar .navbar-nav li.active > a { color: #f09c02;}
+	.custom-navbar .navbar-nav li.active > a i { background: #f09c02; color:#000; }
+}
+/* Mobile Landscape view */
+@media (min-width:321px) and (max-width:480px)
+{
+	.footer-empty { height:80px;}
+	.boxscroll1 { width:100% !important; overflow:auto !important;}
+	.kural-table tr td:first-child { display:none;}
+	.content-in { height:120px;}
+	.kuralvideo .player { width:100%; margin:20px 0px;}
+	.panel-hdr { background:#f8f8f8; }
+	.wecan-anim-page canvas, .anim-in, .search-panel, .theme-setting, .fa-database, .login-panel a span { display:none;}
+	.admin-menu li.active a, .admin-menu li:focus a, .admin-menu li:visited a { color:#000 !important; }
+	.custom-navbar .navbar-toggle, .custom-navbar .navbar-toggle .icon-bar { border:1px solid #000;}
+	.custom-navbar .navbar-toggle { margin:40px 10px 0px 0px; }
+	.banner-container { padding:15px 15px 20px 0px;}
+	.banner-container h1 { font-size: 30px; line-height: 40px; text-shadow: 1px 9px 8px #ccc; margin-bottom: 30px; text-align: center; }
+	.banner-container { background-size:60%; }
+	.banner-container p { text-align:center; font-size:14px;}
+	.about-valluvar p { margin:10px 5%;}
+	.about-container { background-position:-320px 0px;}
+	.homecocontent { border-bottom: 1px solid #fff; margin: 5% 10%; padding-bottom: 40px; font-size:22px;}
+	.homecocontent span { display:none;}
+	.custom-carousel, .about-page { width:100%; }
+	.gallery a { width:100px; margin:0px 0px 5px 3px;}
+	h2.header-text { line-height:50px;}
+	.footer h4 { margin-bottom:10px; line-height:30px;}
+	.about-page-content h1 { font-size:20px; line-height:28px; }
+	.about-page-content p {font-size:13px;}
+	.player { width:100%;}
+	.custom-navbar .navbar-collapse { margin-top: 0px; position: fixed; bottom:0px; top: 0px; right: -100%; background:#fff; width:95%; z-index:1; border:1px solid #316330; z-index:99;}
+	.custom-navbar .navbar-collapse.in { right:-20px; transition:1s; margin:0px; display:block; position:fixed; background:#3C3C44; color:#fff;}
+	.custom-navbar .navbar-collapse.out { right:-101%; transition:1s; margin:0px; display:none; position:fixed;  }
+	.custom-navbar .navbar-nav li a{ padding:10px 0px 10px 0px; color:#fff; }
+	.custom-navbar .navbar-nav li:nth-child(2) { margin-top:20px;}
+	.custom-dropdown, .dropdown-menu li { margin-top:0px !important;}
+	.xs-menu-close { font-size:24px; color:#fff; position:absolute; top:23px; right:40px;}
+	.address{ padding-left:15px; }
+	.mobile-menu { background: #01865C; color: #fff; font-size: 19px; padding: 30px 20px !important; margin: -10px 0px; }
+	.custom-navbar .navbar-nav li a i.fa-cog { display:inline-block; top:1px; text-align:center;}
+	.navbar-nav .open .dropdown-menu {margin-left:20px;}
+	.player video { height:210px;}
+	.inner-brdr { margin:10px 0px 20px 0px;}
+	.under-const, .un-text { width:100%;}
+	.un-text { bottom:-20%; left:0px;}
+	.circle-1 {left:6%;}
+	.notify-center { width:90%; border-radius:10px;}
+	.notify-center h1 { font-size:25px;}
+	.notify-center p span { display:inline-block; margin-top:20px;}
+	.clone-minus { margin-right:0px;}
+	.service-panel .service-panel-anim { bottom:80px;}
+	.footer-form, .copyright, .social-link { text-align:center;}
+	.social-link { margin-top:20px; }
+	.ship1 { width:100px;}
+	.boat-m1 { width:120px; bottom:-40px;}
+	.thirukkural-panel { padding:0px; border:0px; }
+	.video-container h3 { font-size:16px; line-height:24px;}
+	ol.thirukkural li { margin:0px 0px 20px 23px; padding-bottom:35px; border-bottom:1px solid #000;  }
+	ol.thirukkural li a { bottom:5px; top:auto; }
+	ol.thirukkural li:last-child { border-bottom:0px;}
+	.gallery-page .carousel-inner { height:400px;}
+	.gallery-page .carousel-caption h3{ font-size:1.3em; }
+	.gallery-page .item img { height:400px;}
+	.news-top img { width:100%; height:130px; border-radius:0px;}
+	.news-top p { width:100%; margin:0px;}
+	.news-container { height:480px;}
+	.custom-navbar .navbar-collapse::before { content:''; position:absolute; top:0px; left:0px; right:0px; bottom:0px; background:green; }
+	.custom-dropdown li a { padding-left:30px !important; color:#fff; }
+	.custom-navbar .navbar-nav li a i { font-size:20px; margin-right:10px; padding:10px 0px; border-radius:100%; background:#fff; width:40px; text-align:center; display:inline-block; color:#000; }
+	.ytvideo { width:100%; margin:0px; }
+	.ytvideo p button { right:-5px; font-size:20px; }
+	.ytvideo p a { right:25px;}
+	.v-container p { font-size:14px;}
+	.menu-contact { background:#000; }
+	.custom-navbar .navbar-nav li.active > a { color: #f09c02;}
+	.custom-navbar .navbar-nav li.active > a i { background: #f09c02; color:#000; }
+}
+/* Tab Portrait view */
+@media (min-width:481px) and (max-width:767px)
+{
+	.footer-empty { height:80px;}
+	.boxscroll1 { width:100% !important; overflow:auto !important;}
+	.kural-table tr td:first-child { display:none;}
+	.content-in { height:120px;}
+	.kuralvideo .player { width:100%; margin:20px 0px;}
+	.panel-hdr { background:#f8f8f8; }
+	.wecan-anim-page canvas, .anim-in, .search-panel, .theme-setting, .fa-database, .login-panel a span { display:none;}
+	.admin-menu li.active a, .admin-menu li:focus a, .admin-menu li:visited a { color:#000 !important; }
+	.custom-navbar .navbar-toggle, .custom-navbar .navbar-toggle .icon-bar { border:1px solid #000;}
+	.custom-navbar .navbar-toggle { margin:40px 10px 0px 0px; }
+	.banner-container { padding:15px 15px 20px 0px;}
+	.banner-container h1 { font-size: 30px; line-height: 40px; text-shadow: 1px 9px 8px #ccc; margin-bottom: 30px; text-align: center; }
+	.banner-container { background-size:60%; }
+	.banner-container p { text-align:center; font-size:14px;}
+	.about-valluvar p { margin:10px 5%;}
+	.about-container { background-position:-320px 0px;}
+	.homecocontent { border-bottom: 1px solid #fff; margin: 5% 10%; padding-bottom: 40px; font-size:22px;}
+	.homecocontent span { display:none;}
+	.custom-carousel, .about-page { width:100%; }
+	.gallery a { width:100px; margin:0px 0px 5px 3px;}
+	h2.header-text { line-height:50px;}
+	.footer h4 { margin-bottom:10px; line-height:30px;}
+	.about-page-content h1 { font-size:20px; line-height:28px; }
+	.about-page-content p {font-size:13px;}
+	.player { width:100%;}
+	.custom-navbar .navbar-collapse { margin-top: 0px; position: fixed; bottom:0px; top: 0px; right: -100%; background:#fff; width:95%; z-index:1; border:1px solid #316330; z-index:99;}
+	.custom-navbar .navbar-collapse.in { right:-20px; transition:1s; margin:0px; display:block; position:fixed; }
+	.custom-navbar .navbar-collapse.out { right:-101%; transition:1s; margin:0px; display:none; position:fixed;  }
+	.custom-navbar .navbar-nav li a{ padding:10px 0px 10px 0px; color:#fff; }
+	.custom-navbar .navbar-nav li:nth-child(2) { margin-top:20px;}
+	.custom-dropdown, .dropdown-menu li { margin-top:0px !important;}
+	.xs-menu-close { font-size:24px; color:#fff; position:absolute; top:20px; right:40px;}
+	.address{ padding-left:15px; }
+	.mobile-menu { background: #01865C; color: #fff; font-size: 19px; padding: 30px 20px !important; margin: -10px 0px;text-shadow:1px 2px 0px #21ff6d; }
+	.custom-navbar .navbar-nav li a i.fa-cog { top:1px; text-align:center;}
+	.navbar-nav .open .dropdown-menu {margin-left:20px;}
+	.player video { height:210px;}
+	.inner-brdr { margin:10px 0px 20px 0px;}
+	.under-const, .un-text { width:100%;}
+	.un-text { bottom:-20%; left:0px;}
+	.circle-1 {left:30%;}
+	.notify-center { width:90%; border-radius:10px;}
+	.notify-center h1 { font-size:25px;}
+	.notify-center p span { display:inline-block; margin-top:20px;}
+	.service-panel .service-panel-anim { bottom:80px;}
+	ol.thirukkural li:last-child { border-bottom:0px;}
+	.ytvideo { width:100%; margin:0px; }
+	.ytvideo p button { right:-5px; font-size:20px; }
+	.ytvideo p a { right:25px;}
+	.v-container p { font-size:14px;}
+	.menu-contact { background:#000; }
+	.custom-navbar .navbar-nav li.active > a { color: #f09c02;}
+	.custom-navbar .navbar-nav li.active > a i { background: #f09c02; color:#000; }
+}
+/* Tab Landscape view */
+@media (min-width:768px) and (max-width:1024px)
+{
+	.boxscroll1 { width:100% !important;}
+	.kural-table tr td:first-child { display:none;}
+	.content-in { height:120px;}
+	.kuralvideo .player { width:100%; margin:20px 0px;}
+	.panel-hdr { background:#f8f8f8; }
+	.wecan-anim-page canvas, .anim-in, .search-panel, .theme-setting, .fa-database, .login-panel a span { display:none;}
+	.admin-menu li.active a, .admin-menu li:focus a, .admin-menu li:visited a { color:#000 !important; }
+	.custom-navbar .navbar-toggle, .custom-navbar .navbar-toggle .icon-bar { border:1px solid #000;}
+	.custom-navbar .navbar-toggle { margin:40px 10px 0px 0px; }
+	.banner-container { padding:15px 15px 20px 0px;}
+	.banner-container h1 { font-size: 30px; line-height: 40px; text-shadow: 1px 9px 8px #ccc; margin-bottom: 30px; text-align: center; }
+	.banner-container { background-size:60%; }
+	.banner-container p { text-align:center; font-size:14px;}
+	.about-valluvar p { margin:10px 5%;}
+	.about-container { background-position:-320px 0px;}
+	.homecocontent { border-bottom: 1px solid #fff; margin: 5% 10%; padding-bottom: 40px; font-size:22px;}
+	.homecocontent span { display:none;}
+	.custom-carousel, .about-page { width:100%; }
+	.gallery a { width:100px; margin:0px 0px 5px 3px;}
+	h2.header-text { line-height:50px;}
+	.footer h4 { margin-bottom:10px; line-height:30px;}
+	.about-page-content h1 { font-size:20px; line-height:28px; }
+	.about-page-content p {font-size:13px;}
+	.player { width:100%;}
+	.custom-navbar .navbar-collapse { margin-top: 0px; position: fixed; bottom:0px; top: 0px; right: -100%; background:#fff; width:95%; z-index:1; border:1px solid #316330; z-index:99;}
+	.custom-navbar .navbar-collapse.in { right:-20px; transition:1s; margin:0px; display:block; position:fixed; }
+	.custom-navbar .navbar-collapse.out { right:-101%; transition:1s; margin:0px; display:none; position:fixed;  }
+	.custom-navbar .navbar-nav li a{ padding:10px 0px 10px 0px; color:#fff; }
+	.custom-navbar .navbar-nav li:nth-child(2) { margin-top:20px;}
+	.custom-dropdown, .dropdown-menu li { margin-top:0px !important;}
+	.xs-menu-close { font-size:24px; color:#fff; position:absolute; top:20px; right:40px;}
+	.address{ padding-left:15px; }
+	.mobile-menu { background: #01865C; color: #fff; font-size: 18px; padding: 30px 20px !important; margin: -10px 0px; }
+	.custom-navbar .navbar-nav li a i.fa-cog { top:1px; text-align:center; }
+	.navbar-nav .open .dropdown-menu {margin-left:20px;}
+	.player video { height:210px;}
+	.inner-brdr { margin:10px 0px 20px 0px;}
+	.under-const, .un-text { width:100%;}
+	.un-text { bottom:-20%; left:0px;}
+	.circle-1 {left:35%;}
+	.notify-center { width:90%; border-radius:10px;}
+	.notify-center h1 { font-size:25px;}
+	.notify-center p span { display:inline-block; margin-top:20px;}
+	.service-panel .service-panel-anim { bottom:80px;}
+	ol.thirukkural li:last-child { border-bottom:0px;}
+	.custom-dropdown li a { padding-left:30px !important; }
+	.ytvideo { width:100%; margin:0px; }
+	.ytvideo p button { right:-5px; font-size:20px; }
+	.ytvideo p a { right:25px;}
+	.v-container p { font-size:14px;}
+	.menu-contact { background:#000; }
+	.custom-navbar .navbar-nav li.active > a { color: #f09c02;}
+	.custom-navbar .navbar-nav li.active > a i { background: #f09c02; color:#000; }
+}
